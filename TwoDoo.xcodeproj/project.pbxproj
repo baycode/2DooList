@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		37BB456729292CFD00A14D84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BB456629292CFD00A14D84 /* AppDelegate.swift */; };
 		37BB456929292CFD00A14D84 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BB456829292CFD00A14D84 /* SceneDelegate.swift */; };
-		37BB456B29292CFD00A14D84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BB456A29292CFD00A14D84 /* ViewController.swift */; };
+		37BB456B29292CFD00A14D84 /* TwoDooViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BB456A29292CFD00A14D84 /* TwoDooViewController.swift */; };
 		37BB456E29292CFD00A14D84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37BB456C29292CFD00A14D84 /* Main.storyboard */; };
 		37BB457029292CFE00A14D84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37BB456F29292CFE00A14D84 /* Assets.xcassets */; };
 		37BB457329292CFE00A14D84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37BB457129292CFE00A14D84 /* LaunchScreen.storyboard */; };
+		37BB459B2935634C00A14D84 /* TwoDooDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BB459A2935634C00A14D84 /* TwoDooDetailTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		37BB456329292CFD00A14D84 /* TwoDoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwoDoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37BB456629292CFD00A14D84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37BB456829292CFD00A14D84 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		37BB456A29292CFD00A14D84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		37BB456A29292CFD00A14D84 /* TwoDooViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoDooViewController.swift; sourceTree = "<group>"; };
 		37BB456D29292CFD00A14D84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		37BB456F29292CFE00A14D84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37BB457229292CFE00A14D84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		37BB457429292CFE00A14D84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37BB459A2935634C00A14D84 /* TwoDooDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoDooDetailTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				37BB456629292CFD00A14D84 /* AppDelegate.swift */,
 				37BB456829292CFD00A14D84 /* SceneDelegate.swift */,
-				37BB456A29292CFD00A14D84 /* ViewController.swift */,
+				37BB456A29292CFD00A14D84 /* TwoDooViewController.swift */,
+				37BB459A2935634C00A14D84 /* TwoDooDetailTableViewController.swift */,
 				37BB456C29292CFD00A14D84 /* Main.storyboard */,
 				37BB456F29292CFE00A14D84 /* Assets.xcassets */,
 				37BB457129292CFE00A14D84 /* LaunchScreen.storyboard */,
@@ -138,8 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37BB456B29292CFD00A14D84 /* ViewController.swift in Sources */,
+				37BB456B29292CFD00A14D84 /* TwoDooViewController.swift in Sources */,
 				37BB456729292CFD00A14D84 /* AppDelegate.swift in Sources */,
+				37BB459B2935634C00A14D84 /* TwoDooDetailTableViewController.swift in Sources */,
 				37BB456929292CFD00A14D84 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,8 +297,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -321,8 +324,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
