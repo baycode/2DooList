@@ -14,6 +14,8 @@
 		37BB457029292CFE00A14D84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37BB456F29292CFE00A14D84 /* Assets.xcassets */; };
 		37BB457329292CFE00A14D84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37BB457129292CFE00A14D84 /* LaunchScreen.storyboard */; };
 		37BB459B2935634C00A14D84 /* TwoDooDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BB459A2935634C00A14D84 /* TwoDooDetailTableViewController.swift */; };
+		37BB459F2935C51E00A14D84 /* TwoDooItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BB459E2935C51E00A14D84 /* TwoDooItem.swift */; };
+		37BB45A12936890C00A14D84 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BB45A02936890C00A14D84 /* ListTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		37BB457229292CFE00A14D84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		37BB457429292CFE00A14D84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37BB459A2935634C00A14D84 /* TwoDooDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoDooDetailTableViewController.swift; sourceTree = "<group>"; };
+		37BB459E2935C51E00A14D84 /* TwoDooItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoDooItem.swift; sourceTree = "<group>"; };
+		37BB45A02936890C00A14D84 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +64,10 @@
 			children = (
 				37BB456629292CFD00A14D84 /* AppDelegate.swift */,
 				37BB456829292CFD00A14D84 /* SceneDelegate.swift */,
+				37BB459E2935C51E00A14D84 /* TwoDooItem.swift */,
 				37BB456A29292CFD00A14D84 /* TwoDooViewController.swift */,
 				37BB459A2935634C00A14D84 /* TwoDooDetailTableViewController.swift */,
+				37BB45A02936890C00A14D84 /* ListTableViewCell.swift */,
 				37BB456C29292CFD00A14D84 /* Main.storyboard */,
 				37BB456F29292CFE00A14D84 /* Assets.xcassets */,
 				37BB457129292CFE00A14D84 /* LaunchScreen.storyboard */,
@@ -143,8 +149,10 @@
 			files = (
 				37BB456B29292CFD00A14D84 /* TwoDooViewController.swift in Sources */,
 				37BB456729292CFD00A14D84 /* AppDelegate.swift in Sources */,
+				37BB459F2935C51E00A14D84 /* TwoDooItem.swift in Sources */,
 				37BB459B2935634C00A14D84 /* TwoDooDetailTableViewController.swift in Sources */,
 				37BB456929292CFD00A14D84 /* SceneDelegate.swift in Sources */,
+				37BB45A12936890C00A14D84 /* ListTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
